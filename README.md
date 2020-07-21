@@ -13,7 +13,7 @@ sudo apt-get -y install build-essential asciidoc binutils bzip2 gawk gettext git
    ./scripts/feeds clean
    ./scripts/feeds update -a
    ./scripts/feeds install -a
-   make menuconfig
+   make menuconfig 
    ```
 
 5. `make -j8 download V=s` 下载dl库（国内请尽量全局科学上网）
