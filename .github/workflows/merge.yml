@@ -23,9 +23,9 @@ jobs:
     steps:
 
     - name: Checkout
-      uses: actions/checkout@dev-19.07
+      uses: actions/checkout@master
       with:
-        ref: dev-19.07
+        ref: master
         fetch-depth: 0
         lfs: true
 
