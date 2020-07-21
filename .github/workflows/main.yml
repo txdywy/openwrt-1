@@ -31,7 +31,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@master
         with:
-          ref: master
+          ref: dev-19.07
 
       - name: Space cleanup
         env:
